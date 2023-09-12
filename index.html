@@ -9,6 +9,12 @@
             background-color: #191919;
             text-align: center;
             position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
 
         h1 {
@@ -16,6 +22,14 @@
             font-weight: bold;
             color: red;
             text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+        }
+
+        .grid-container {
+            background-color: black;
+            border-radius: 10px; /* Adjust the radius as needed */
+            width: 300px; /* Adjust the width of the grid */
+            height: 300px; /* Adjust the height of the grid */
+            margin-top: 20px; /* Add some space between header and grid */
         }
 
         .footer {
@@ -29,6 +43,7 @@
 </head>
 <body>
     <h1>Bypass</h1>
+    <div class="grid-container"></div>
     <div class="footer">Made by Todd ;)</div>
 </body>
 </html>
